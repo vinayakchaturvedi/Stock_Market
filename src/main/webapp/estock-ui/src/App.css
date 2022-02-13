@@ -1,0 +1,714 @@
+body {
+    /*background: url("background1.png") no-repeat fixed;*/
+    background-size: cover;
+    height: calc(100vh - 80px);
+    background-color: rgb(10, 38, 59);
+}
+
+.Welcome body {
+    background: url("background1.png") no-repeat fixed;
+    background-size: cover;
+    height: calc(100vh - 0px);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: #062238;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #062238;
+    font-size: 26px;
+    padding: 7px 14px;
+    border-radius: 3px;
+}
+
+.NAV nav ul li a {
+    color: #ffffff;
+}
+
+.NAV nav label {
+    color: #ffffff;
+}
+
+.NAV nav {
+    border-bottom: 3px solid #ffffff;
+}
+
+.NAV a:hover {
+    color: #ee2b2b;
+}
+
+a:hover {
+    background: none;
+    color: white;
+    transition: .5s;
+}
+
+.checkBtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.Welcome .content {
+    position: absolute;
+    top: 240px;
+    right: 100px;
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #211e1e;
+    font-size: 20px;
+}
+
+.Welcome h1 {
+    color: #ffffff;
+    padding-bottom: 16px;
+    font-size: 40px;
+}
+
+.createAccount {
+    margin-top: 20px;
+    color: white;
+    color: white;
+    background-color: #6f6e6e;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 6px 18px;
+    border-radius: 25px;
+}
+
+.createAccountShort {
+    display: none;
+}
+
+.SignUp * {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.SignUp {
+    position: absolute;
+    right: 60px;
+    top: 70px;
+}
+
+.SignUp .register {
+    margin-top: 35px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-left: 700px;
+    color: #ffffff;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.SignUp .main {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 600px;
+    margin-left: 700px;
+}
+
+.SignUp form {
+    padding: 10px
+}
+
+
+.SignUp #name {
+    width: 100%;
+    height: 100px;
+}
+
+.SignUp .name {
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 120px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.SignUp .firstName {
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    width: 180px;
+}
+
+.SignUp .lastName {
+    left: 330px;
+    top: -80px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    width: 180px;
+}
+
+.SignUp .firstLabel {
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 203px;
+    top: -45px;
+}
+
+.SignUp .lastLabel {
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 152px;
+    top: -45px;
+}
+
+.SignUp .email, .contactNumber, .password {
+    left: 200px;
+    top: -34px;
+    line-height: 40px;
+    width: 380px;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+.SignUp .registerButton {
+    margin-top: 5px;
+    margin-left: 250px;
+    text-align: center;
+    color: #ffffff;
+    background-image: linear-gradient(to left, grey, darkslategrey);
+    background-color: #6f6e6e;
+    font-size: 22px;
+    width: 250px;
+    line-height: 40px;
+    padding: 6px 22px;
+    border-radius: 25px;
+}
+
+.SignUp .registerButton:hover {
+    background-color: white;
+    border: white 2px solid;
+}
+
+.SignUp a {
+    color: #b3a9a9;
+}
+
+.SignUp a:hover {
+    color: #47742f;
+}
+
+.stock {
+    position: absolute;
+    right: 40px;
+    width: 1500px;
+    height: 375px;
+    margin-top: 20px;
+}
+
+.stock .updateGraph {
+    display: inline-block;
+}
+
+.stock h2 {
+    margin-right: 80px;
+    margin-left: 30px;
+}
+
+.stock h1 {
+    color: #a79fe7;
+    font-size: 3em;
+}
+
+.stock button {
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-image: linear-gradient(to left, grey, darkslategrey);
+    border: solid #24282E 2px;
+    font-size: 22px;
+    width: 250px;
+    padding: 6px 22px;
+    border-radius: 25px;
+}
+
+.stock button:hover {
+    border: solid white 2px;
+}
+
+.stock-view-card {
+    padding: 10px;
+    margin: 20px;
+}
+
+.stock-view-card button {
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    line-height: 40px;
+    padding: 6px 22px;
+    float: inside;
+}
+
+.GenerateView .container {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    left: -10%;
+}
+
+.GenerateView .item {
+    background: rgba(36, 40, 46, 0.55);
+    margin: 3px;
+    padding: 34px;
+}
+
+.stock-view-card .companyDetails {
+    display: inline-block;
+    font-size: 24px;
+    padding: 7px;
+}
+
+.ExtendedStockView {
+    margin: 80px 10px;
+}
+
+.ExtendedStockView .container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 50% 50%;
+}
+
+.ExtendedStockView .item {
+    border: 2px solid rgb(98, 78, 78);
+    background: rgba(36, 40, 46, 0.55);
+    margin: 3px;
+    padding: 34px;
+}
+
+.ExtendedStockView .daysQuery {
+    margin-left: 5%;
+    border-bottom: 2px solid #000000;
+    text-align: center;
+}
+
+.ExtendedStockView .queryType {
+    text-align: center;
+    display: inline-block;
+    margin-right: 10%;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.ExtendedStockView .item:nth-child(3) {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.ExtendedStockView .companyDetails {
+    display: inline-block;
+    font-size: 25px;
+    padding: 14px;
+}
+
+.stock-view-card h5 {
+    color: #a38282;
+}
+
+.stock-view-card p {
+    color: white;
+}
+
+.ExtendedStockView h5 {
+    color: #a38282;
+}
+
+.ExtendedStockView p {
+    color: white;
+}
+
+.buyStock {
+    margin-top: 2%;
+    margin-left: 2%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #6f6e6e;
+    font-size: 22px;
+    width: 200px;
+    padding: 6px 22px;
+    border-radius: 25px;
+}
+
+.buy-stock-page input {
+    background-color: #e3c6c6;
+    border-radius: 15px;
+}
+
+.buy-stock-page {
+    background-image: linear-gradient(to top, #555678, #050e21);
+    background-size: cover;
+    padding-bottom: 400px;
+    margin-top: -1%;
+}
+
+.buy-stock-page h3 {
+    width: fit-content;
+    color: #8e8fc9;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.buy-stock-page .buy-stock-container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.buy-stock-page button {
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: center;
+    height: 60px;
+    font-family: KacstPen, fantasy;
+    background-image: linear-gradient(to right, violet, orange);
+    font-size: 22px;
+    width: 310px;
+    padding: 6px 22px;
+    border-radius: 25px;
+}
+
+.buy-stock-page button:hover {
+    background-image: linear-gradient(to right, violet, orange);
+    color: #deebf9;
+    border: white solid 2px;
+}
+
+button {
+    border: transparent;
+
+
+}
+
+.Error404 .mainBox {
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    position: relative;
+}
+
+.Error404 .err {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;
+    position: absolute;
+    left: 20%;
+    top: 8%;
+}
+
+.Error404 .far {
+    position: absolute;
+    font-size: 8.5rem;
+    left: 42%;
+    top: 15%;
+    color: #ffffff;
+}
+
+.Error404 .err2 {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;
+    position: absolute;
+    left: 68%;
+    top: 8%;
+}
+
+.Error404 .msg {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 16%;
+    top: 45%;
+    width: 75%;
+    color: #4e679f;
+}
+
+.Error404 a {
+    text-decoration: none;
+    color: white;
+}
+
+.Error404 a:hover {
+    text-decoration: underline;
+}
+
+.UserProfile h2 {
+    padding: 1%;
+    font-size: 30px;
+    color: #0b91fa;
+}
+
+.UserProfile .container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.UserProfile .item {
+    border: 2px solid rgb(98, 78, 78);
+    background: rgba(36, 40, 46, 0.55);
+    margin: 3px;
+    padding: 34px;
+}
+
+.UserProfile .item:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.UserProfile .item label {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.UserProfile .item .stockList select {
+    background-color: #0563af;
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+
+.UserProfile .item .stockList:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.UserProfile .item .stockList select option {
+    padding: 30px;
+}
+
+.UserProfile .item Table {
+    width: 100%;
+}
+
+.UserProfile .item td {
+    font-weight: normal;
+    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+    -moz-box-shadow: 0 2px 2px -2px #0E1119;
+    box-shadow: 0 2px 2px -2px #0E1119;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.UserProfile .item th {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 2%;
+    background-color: #1F2739;
+    color: #0082e6;
+    font-size: 2rem;
+}
+
+/* Background-color of the odd rows */
+.UserProfile .item tr:nth-child(odd) {
+    background-color: #323C50;
+}
+
+/* Background-color of the even rows */
+.UserProfile .item tr:nth-child(even) {
+    background-color: #2C3446;
+}
+
+.UserProfile .item td:first-child {
+    color: #7afb66;
+}
+
+.UserProfile .item tr:hover {
+    background-color: #464A52;
+    -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+    -moz-box-shadow: 0 6px 6px -6px #0E1119;
+    box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.AboutContact body {
+    background: url("background2.png") no-repeat fixed;
+    background-size: cover;
+    height: calc(100vh - 0px);
+}
+
+.About {
+    margin-top: 3%;
+}
+
+.About .container {
+    margin-top: 2%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+}
+
+.About .item {
+    margin: 3px;
+    padding: 34px;
+}
+
+.About h1 {
+    text-align: center;
+    color: #123342;
+}
+
+.About h2 {
+    text-align: center;
+    color: #0c0c0c;
+    border-bottom: dotted;
+    font-size: 180%;
+}
+
+.About p {
+    text-align: center;
+    color: #0c0c0c;
+    font-size: 150%;
+}
+
+.About img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 50px;
+    align-content: center;
+}
+
+.About .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1050px) {
+    body {
+        background: url("background2.png") no-repeat;
+        background-size: cover;
+        height: calc(118vh - 80px);
+    }
+}
+
+@media (max-width: 858px) {
+    .checkBtn {
+        display: block;
+    }
+
+    nav {
+        background: rgba(133, 134, 138, 0.85);
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(137, 138, 140, 0.55);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        line-height: 60px;
+    }
+
+    nav ul li a {
+        font-size: 24px;
+    }
+
+    a:hover {
+        background: none;
+        color: #0082e6;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .createAccountShort {
+        display: block;
+    }
+
+
+}

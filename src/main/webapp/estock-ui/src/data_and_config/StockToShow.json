@@ -1,0 +1,10 @@
+{
+  "Stocks": [
+    "MSFT",
+    "GOOGL",
+    "AAPL",
+    "TSLA",
+    "AMZN"
+  ],
+  "NumberOfDays": 100
+}
